@@ -18,7 +18,7 @@ if ($connection->connect_error) {
 }
 
 //$confpbx = new mysqli('localhost', 'freepbxuser', '', 'asterisk');
-$confpbx = new mysqli('localhost', 'asteruser', '12345678', 'asteriskcdrdb');
+$confpbx = new mysqli('localhost', 'asteruser', '', 'asteriskcdrdb');
 $confpbx->set_charset('utf8');
 
 
@@ -42,7 +42,7 @@ $confpbx->set_charset('utf8');
 
 $config['urlraw'] = 'http://127.0.0.1:8088/asterisk/rawman';
 $config['admin'] = 'ajamuser';
-$config['secret'] = '1234';
+$config['secret'] = '';
 $config['authtype'] = 'plaintext';
 $config['cookiefile'] = null;
 $config['debug'] = false;
