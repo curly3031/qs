@@ -3,7 +3,7 @@ require_once "misc.php";
 
 $DBServer = 'localhost';
 $DBUser = 'asteruser';
-$DBPass = '12345678';
+$DBPass = '';
 $DBName = 'asteriskcdrdb';
 $DBTable = 'queuelog';
 
